@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/5e16ef4bac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/home/riko-04/Documents/phase0/MyPortfolio/LOGO1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="header-text">
+                <h1>Hi, I'm <span>Eric Choge</span>.</h1>
+                <p><b>An aspiring Software Designer:)</b> </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/home/riko-04/Documents/phase0/MyPortfolio/aboutme.jpg" alt="about me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1> 
+                    <p>Hey there, I'm Eric Choge; but you can call me Riko-04 just as my friends do. I am a student at KCA university and Moringa school.
+                        This is mainly because I can't get enough of coding, so juggling between two courses at two different institution is a no brainer. 
+                        I love listening to any song that has both rythmn and flow in it; so most of my time is spent on spotify just relaxing and listening to music. 
+                        I started a shoe store with my long-term friend called "Sleazy Thrift", although we are yet to receive profits since opening. 
+                        Finally, there wouldn't be a Riko-04 without a BAYC NFT in the mix; I love me some monkey NFTs. I really don't know why, but I love 'em.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Software Development</span><br>The goal is to be designing softwares.</li>
+                                <li><span>Online business</span><br>Running a successful Online store.</li>
+                                <li><span>Music Production</span><br>I'm creating beats for fun at the moment.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>A software development student at KCA and Moringa school.</li>
+                                <li><span>2019 - 2021</span><br>Did Computer studies in highschool, and became the top student in Uasin Gishu!!!</li>
+                                <li><span>2017 - 2019</span><br>Dreamt of being the best software developer in the history of software developers.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Got my software development short course certificate.</li>
+                                <li><span>2021</span><br>Got my KCSE certificate.</li>
+                                <li><span>2017</span><br>Got my KCPE certificate.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am good at both HTML and CSS, so you are in safe hands when it comes to web development stuff.
+                        With addition to the javascript classes I've been taking, I can help create a responsive website.</p>
+                    <a href="https://clutch.co/ke/web-designers">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Online Business Management</h2>
+                    <p>Creating a business in general, is a pretty hectic endevour. So getting some help form someone who has been down that path could prove to be effecient.
+                        I'll help you build your online business like I did with my friend using instagram.
+                    </p>
+                    <a href="https://www.instagram.com/sleazythrifts/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I will help you build your first app using sites like wordpress and wix.</p>
+                    <a href="https://wordpress.com/sites">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/home/riko-04/Documents/phase0/MyPortfolio/d2e6194a5d35e0e51c10dbc0c0f14ea7.jpg">
+                    <div class="layer">
+                        <h3>Online store</h3>
+                        <p>In here you will find our instagram account for our shoe store.</p>
+                        <a href="https://www.instagram.com/sleazythrifts/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/home/riko-04/Documents/phase0/MyPortfolio/62c3d083e679ef2ec8c1bcc417ee349d.jpg">
+                    <div class="layer">
+                        <h3>Spotify Music Playlist</h3>
+                        <p>In here you'll find my playlist on spotify.</p>
+                        <a href="https://open.spotify.com/collection/tracks"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/home/riko-04/Documents/phase0/MyPortfolio/9c6400ebc23c15f0b6ff16cdb8581636.jpg">
+                    <div class="layer">
+                        <h3>NFT collection</h3>
+                        <p>In here you will see where I get my NFTs from.</p>
+                        <a href="https://opensea.io/collection/boredapeyachtclub"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.goojara.to/" class="btn">See More Cool Stuff</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>echoge11@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0706258077</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/sleazythrifts/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.reddit.com/?rdt=63809&onetap_auto=true&one_tap=true"><i class="fa-brands fa-reddit"></i></a>
+                    </div>
+                    <a href="/home/riko-04/Documents/phase0/MyPortfolio/PROFESSIONAL ISSUES CAT.odt" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i> Eric. Made with <i class="fa-solid fa-heart"></i> by Riko-04</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwoVpJQjJ3KJod9goxda6cTUKDHl5y8jASK2QW4oq4XSpvtb4eu26UwTlX6TBWjAFop/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+     </script>
+     
+
+</body>
+</html>
